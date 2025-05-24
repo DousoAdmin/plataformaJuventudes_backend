@@ -8,4 +8,10 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function hola_mundo(): string
+    {
+        return view('repositorio/holamundo');
+    }
+
 }
