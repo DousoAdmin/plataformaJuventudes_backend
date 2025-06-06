@@ -17,5 +17,6 @@ $routes->get('zamir/imagenes', 'Home::imagenes');
 $routes->group('repositorios', function($routes) {
     $routes->get('misionVision', 'Home::misionVision');
     $routes->get('imagenes', 'Home::imagenes');
+    $routes->get('servicios', 'Home::servicios');
 });
 

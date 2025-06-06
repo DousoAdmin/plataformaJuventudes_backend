@@ -17,6 +17,8 @@
 
  <button class="boton-prueba">prueba</button> 
  <button class="boton-prueba-2">prueba2</button> 
+<button class="boton-prueba-servicios">servicios</button> 
+
         <!-- Incluir el menú -->
          <!-- Contenido -->
             <div class="area-trabajo">
