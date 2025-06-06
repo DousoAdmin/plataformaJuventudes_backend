@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bosetos Web - Organización</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-
-    </style>
-  </head>
-  <body class="bg-gray-100 text-gray-800">
-
-    <!-- Misión y Visión aqui lo quiero cargar con lineas acuerdecen -->
+ <!-- Misión y Visión aqui lo quiero cargar con lineas acuerdecen -->
     <section class="min-h-screen p-12 bg-white">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-extrabold text-center text-blue-800 mb-8">Visión, Misión y Valores</h2>
@@ -96,6 +80,3 @@
 
       </div>
     </section>
-
-  </body>
-</html>

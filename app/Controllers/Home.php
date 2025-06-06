@@ -8,6 +8,10 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+    public function base(): string
+    {
+        return view('tools/base',['title' => 'Base de la Aplicación']);
+    }
 
     public function hola_mundo(): string
     {
@@ -16,7 +20,7 @@ class Home extends BaseController
 
     public function misionVision(): string
     {
-        return view('repositorio/zamir/mision_vision');
+        return view('repositorio/view_ajax/misionVision');
     }
     public function presentacion(): string
     {
@@ -28,6 +32,6 @@ class Home extends BaseController
     }
     public function imagenes(): string
     {
-        return view('repositorio/zamir/imagenes');
+        return view('repositorio/view_ajax/imagenes');
     }
 }
