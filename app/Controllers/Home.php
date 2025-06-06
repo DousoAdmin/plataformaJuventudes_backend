@@ -11,26 +11,23 @@ class Home extends BaseController
 
     public function hola_mundo(): string
     {
-
-        return view('repositorio/holamundo');
-        
-    }
-
-    public function nicolas(): string
-    {
         return view('repositorio/holamundo');
     }
 
-    public function zamir(): string
+    public function misionVision(): string
     {
         return view('repositorio/zamir/mision_vision');
     }
-
-    public function santiago(): string
+    public function presentacion(): string
     {
-        return view('repositorio/holamundo');
+        return view('repositorio/zamir/presentacion');
     }
-
-
-
+    public function trayectoria(): string
+    {
+        return view('repositorio/zamir/trayectoria');
+    }
+    public function imagenes(): string
+    {
+        return view('repositorio/zamir/imagenes');
+    }
 }
