@@ -18,6 +18,8 @@
  <button class="boton-prueba">prueba</button> 
  <button class="boton-prueba-2">prueba2</button> 
 <button class="boton-prueba-servicios">servicios</button> 
+<button class="boton-prueba-areas">areas</button> 
+<button class="boton-prueba-testimonios">testimonios</button>
 
         <!-- Incluir el menú -->
          <!-- Contenido -->

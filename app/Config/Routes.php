@@ -18,5 +18,7 @@ $routes->group('repositorios', function($routes) {
     $routes->get('misionVision', 'Home::misionVision');
     $routes->get('imagenes', 'Home::imagenes');
     $routes->get('servicios', 'Home::servicios');
+    $routes->get('areas', 'Home::areas');
+    $routes->get('testimonios', 'Home::testimonios');
 });
 

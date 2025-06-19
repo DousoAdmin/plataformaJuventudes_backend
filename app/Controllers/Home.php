@@ -38,4 +38,12 @@ class Home extends BaseController
     {
     return view('repositorio/view_ajax/servicios',['title' => 'servicios']);
     }
+    public function areas(): string
+    {
+        return view('repositorio/view_ajax/areas');
+    }
+    public function testimonios (): string
+    {
+        return view('repositorio/view_ajax/testimonios');
+    }
 }
