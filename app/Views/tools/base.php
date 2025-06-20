@@ -6,8 +6,8 @@
   <title><?= $title ?? 'Mi Aplicación' ?></title>
   <link href="<?= base_url('assets/styles/tools/tools.css'); ?>" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script type="text/javascript" src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
@@ -24,10 +24,8 @@
         <!-- Incluir el menú -->
          <!-- Contenido -->
             <div class="area-trabajo">
-
-                <?= $this->renderSection('content') ?>
-
-            </div>
+              <?= $this->renderSection('content') ?>
+             </div>
         </div>
 
 </body>

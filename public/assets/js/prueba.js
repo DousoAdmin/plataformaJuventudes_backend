@@ -40,7 +40,7 @@
         
     });
 
-      $(".boton-prueba-servicios").on('click', function(e) {
+      $(".boton-prueba-areas").on('click', function(e) {
         e.preventDefault();
         var url = '/repositorios/areas';
         $(".area-trabajo").load(url, function(){
