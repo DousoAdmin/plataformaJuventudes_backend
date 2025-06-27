@@ -46,4 +46,8 @@ class Home extends BaseController
     {
         return view('repositorio/view_ajax/testimonios');
     }
+    public function publicaciones(): string
+    {
+        return view('repositorio/view_ajax/publicaciones');
+    }
 }

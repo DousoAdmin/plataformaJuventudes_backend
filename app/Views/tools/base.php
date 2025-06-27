@@ -20,6 +20,8 @@
 <button class="boton-prueba-servicios">servicios</button> 
 <button class="boton-prueba-areas">areas</button> 
 <button class="boton-prueba-testimonios">testimonios</button>
+<button class="boton-prueba-publicaciones">publicaciones</button>
+
 
         <!-- Incluir el menú -->
          <!-- Contenido -->

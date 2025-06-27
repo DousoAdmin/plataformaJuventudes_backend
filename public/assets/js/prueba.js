@@ -67,3 +67,16 @@
             window.toggleAccordion(parentItem);
         }
         });
+
+          $(".boton-prueba-publicaciones").on('click', function(e) {
+        e.preventDefault();
+        var url = '/repositorios/publicaciones';
+        $(".area-trabajo").load(url, function(){
+            cerrarLogoCarga();
+        });
+        // Cerrar el acordeón correspondiente
+        var parentItem = $(this).closest('.buton-menu-padre')[0];
+        if (parentItem) {
+            window.toggleAccordion(parentItem);
+        }
+        });

@@ -20,5 +20,6 @@ $routes->group('repositorios', function($routes) {
     $routes->get('servicios', 'Home::servicios');
     $routes->get('areas', 'Home::areas');
     $routes->get('testimonios', 'Home::testimonios');
+    $routes->get('publicaciones', 'Home::publicaciones');
 });
 
